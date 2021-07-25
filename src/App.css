@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: calc(100vh + 10);
+  width: 100%;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.produtos {
+  border: 1px solid steelblue;
+  width: 50vh;
+  min-height: 500px;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.clientes {
+  border: 1px solid steelblue;
+  width: 50vh;
+  min-height: 500px;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 5px;
+  overflow: auto;
+}
