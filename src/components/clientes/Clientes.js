@@ -10,7 +10,7 @@ function Clientes() {
 
     const addTask = (Cliente) => {
         const id = Math.floor(Math.random() * 10000) + 1
-        const newTask = {id, ... Cliente }
+        const newTask = {id, ...Cliente}
         setTasks([...clientes, newTask])
         setshowAddCliente(false);
 

@@ -10,7 +10,7 @@ function Produtos() {
 
     const addTask = (produto) => {
         const id = Math.floor(Math.random() * 10000) + 1
-        const newTask = {id, ... produto }
+        const newTask = {id, ...produto}
         setTasks([...produtos, newTask])
         setshowAddProduto(false);
 
